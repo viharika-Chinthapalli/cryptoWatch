@@ -1,0 +1,70 @@
+.container {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(35, 33, 33);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 23rem;
+    background-color: rgb(255, 255, 255);
+    gap: 1.3rem;
+    padding: 1.5rem;
+    border-radius: 19px;
+    position: relative;
+    box-shadow: 0cqmax;
+    box-shadow: 0px 5px 30px 12px rgba(45, 211, 253, 0.334);
+}
+
+form h1 {
+    font-weight: 500;
+    padding-bottom: 14px;
+}
+
+.input{
+    width: 100%;
+    padding: 4px;
+    border-radius: 25px;
+    border: 1px solid rgb(104, 99, 99);
+    box-shadow: 0px 5px rgba(177, 177, 177, 0.575) ;
+}
+ input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: inherit !important;
+ }
+
+button {
+    width: 100%;
+    padding: 1em;
+    background-color: rgb(20, 111, 230);
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.account {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.account a {
+    color: blue;
+    font-weight: 400;
+}
